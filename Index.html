@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+  <form action="/action_page.php" target=_blank">
+    <div class="container">
+      <h1> Covid Survery Form </h1>
+      <div class="name">
+        <label>Enter your name : </label>
+        <input type="text" name="name" placeholder="Firstname" required>
+        <input type="text" name="name" placeholder="Lastname" required>
+        <br><br>
+        <label>Enter your email :</label>
+        <input type="email" class="email" placeholder="name@gmail.com" required><br><br>
+      </div>
+      <div>
+        <label>Age :</label>
+        <input type="number" class="age" placeholder=24 required>
+        <br><br>
+      </div>
+      <div>
+        <label>Mobile No: :</label>
+        <input type="number" class="phone" placeholder="72010130028" required>
+      </div>
+      <div>
+        <h2> Sex</h2>
+        <input type="radio" class="male" name="Gender" required>
+        <label>Male</label>
+        <input type="radio" class="female" name="Gender" required>
+        <label>Female</label>
+        <input type="radio" class="others" name="Gender" required>
+        <label>Others</label>
+      </div>
+      <div>
+        <h2> Do you think Vaccination is important?</h2>
+        <input type="radio" name="okay">
+        <label>Yes</label>
+        <input type="radio" name="okay" required>
+        <label>No</label>
+      </div>
+      <div>
+        <h2>Are you a Covid-19 victim?</h2>
+        <input type="radio" name="ok" required>
+        <label>Yes</label>
+        <input type="radio" name="ok" required>
+        <label>No</label>
+      </div>
+      <div>
+        <h2> Employment Status:</h2>
+        <select name="employ">
+          <option> Salaried</option>
+          <option> Umemployed</option>
+          <option> Student</option>
+          <option> Business</option>
+        </select>
+      </div>
+      <div>
+        <h2>Which of the following below defines the concern about getting the vaccin?</h2>
+        <div class="reason">
+          <input type="checkbox" name="answer">I have concerns about vaccine side-effects<br>
+          <input type="checkbox" name="answer">Religious Reasons<br>
+          <input type="checkbox" name="answer">I donot believe it is a solution for corona virus<br>
+          <input type="checkbox" name="answer">I believe it will have negative feedback on my health
+        </div>
+      </div>
+      <div>
+        <h2>Which of the following could be helpful if you didn't decide yet?</h2>
+        <div class="reason1">
+          <input type="checkbox" name="concern">If my doctor would approve!<br>
+          <input type="checkbox" name="concern">If legal authorities would approve!<br>
+          <input type="checkbox" name="concern">If vaccine transparency revealed by government<br>
+          <input type="checkbox" name="concern">I want that period to be observed how other people are reacting.<br>
+
+        </div><br>
+        <div class="center"><button> Submit for review</button><br></div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.container{
+    background:lightgreen;
+  }
+  .email{
+    width:350px;
+  }
+  .age{
+    width:30px;
+  }
+  .phone{
+    width:100px;
+  }
+  .reason{
+    font-size:21px;
+  }
+  .reason1{
+    font-size:21px;
+  }
+  .center{
+    text-align:center;
+  }
